@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+          integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>CV</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+<main class="cv">
+    <section class="about">
+        <h2 class="cosmos">About</h2>
+        <header class="header">
+            <figure class="photo">
+                <img src="./face.jpg" alt="Максим Ильмендеров" />
+            </figure>
+        </header>
+
+        <article class="contacts">
+            <h3 class="contacts__text">contact me</h3>
+            <div class="underlined"></div>
+            <ul class="phone">
+                <li class="phone__icon"><i class="fas fa-phone-volume"></i></li>
+                <li class="phone_number">+79176711254</li>
+            </ul>
+
+            <ul class="phone">
+                <li class="phone__icon"><i class="fab fa-telegram-plane"></i></li>
+                <li class="phone__link">
+                    <a id="link" href="https://t.me/eilmenderov">
+                        <u>eilmenderov</u>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="skype">
+                <li class="skype__icon"><i class="fab fa-skype">&nbsp;&nbsp;&nbsp;&nbsp;</i></li>
+                <li class="skype__profile">
+                    <a id="link" href="skype:ilmenderov.m.v?chat">
+                        <u>ilmenderov.m.v</u>
+                    </a>
+                </li>
+            </ul>
+        </article>
+
+        <article class="skills">
+            <h3 class="contacts__text">skills</h3>
+            <div class="underlined"></div>
+            <ul class="skills_list">
+                <li>Docker</li>
+                <li>Ansible, Terraform, Packer</li>
+                <li>MySQL, PostgreSQL</li>
+                <li>Linux, Bash, Python</li>
+            </ul>
+            <div id="work-examples">
+                <h3 class="contacts__text">Certificate</h3>
+                <div class="underlined"></div>
+                <nav class="works">
+                    <ul>
+                        <li>
+                            <a href="https://www.credly.com/badges/224dfe52-673a-490f-949e-972e20bbd8c7/public_url"><u>CKA</u></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/eilmenderov/certs/blob/main/YaCloud.pdf"><u>YandexCloud</u></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </article>
+
+    </section>
+
+    <section class="about-me">
+        <h1>Ильмендеров Максим</h1>
+        <h4>DevOps</h4>
+        <div class="underlined-grey"></div>
+
+        <article class="summary">
+            <h2>Summary</h2>
+            <p>
+                As a DevOps Engineer, I have experience in building and maintaining web SaaS solutions using Linux/Unix platforms in both cloud (AWS/YaCloud) and on-premise environments. I also have experience in server infrastructure migration and transitioning from monolithic to microservices architecture, monitoring and securing. In addition, I actively participate in automating, creating, and supporting CI/CD processes to ensure seamless product development.
+            </p>
+        </article>
+
+        <article class="experience">
+            <h2>Experience</h2>
+            <div class="description">
+                <div class="description__item2">
+                    <a class="strong" href="https://www.voxxify.com/" >Voxxify </a> - A platform for employers that allows determining the employee's condition (stress level, motivation, burnout, etc.) <br />
+                    <span class="strong">November 2021 – February 2022</span> <br />
+                    <b>Tools & Technologies:</b> Jenkins, AWS(ELB, EC2, S3, IAM, CodeCommit, Route53, SQS, SNS and others)<br />
+                    <b>Main responsibilities:</b><br />
+                    <ul>
+                        <li>
+                            Improve deployment process within AWS
+                        </li>
+                        <li>
+                            Participated in the implementation of load testing
+                        </li>
+                        <li>
+                            Transitioning from on-premise to cloud native environment
+                        </li>
+                        <li>
+                            Automation of processes using Terraform and Ansible
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="description">
+                <div class="description__item2">
+                    <a class="strong" href="https://andersenlab.com/" >Andersen</a>(CRM Project) -   CRM system designed for effective management of the sales cycle in the company (Sales Managers, Sales Partners, Sales Assistants, HRs, Delivery Directors, Delivery Managers, PMs)<br />
+                    <span class="strong">February 2022 – present<br /></span>
+                    <b>Tools & Technologies:</b> Kubernets, Jenkins, Gitlab CI, EFK, Prometheus/Grafana, Nginx<br />
+                    <b>Main responsibilities:</b><br />
+                    <ul>
+                        <li>
+                            Deployment self-hosted clusters k8s, maintenance and updating
+                        </li>
+                        <li>
+                            Creation and improvement of monitoring and alerting system
+                        </li>
+                        <li>
+                            Increased production deployment frequency from weekly  to daily(or more often)
+                        </li>
+                        <li>
+                            Migrate from monolith to microservices architecture
+                        </li>
+                        <li>
+                            Database replication, automation of backups and recovery in case of failures
+                        </li>
+                        <li>
+                            Support and troubleshooting
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </article>
+
+        <article class="education">
+            <h2>Education</h2>
+            <div class="description">
+                <div class="description__item1">
+                    <div>
+                        <span class="strong">2012</span> – <span class="strong">2016</span>
+                    </div>
+                    <div>
+                        <span class="strong">ITMO University</span>
+                    </div>
+                </div>
+                <div class="description__item2">
+                    <span class="strong">Direction:</span> Bachelor's degree in optoelectronic
+                    devices and systems.
+                </div>
+            </div>
+            <div class="description">
+                <div class="description__item1">
+                    <div>
+                        <span class="strong">03/2021 – 02/2023</span>
+                    </div>
+                    <div>
+                        <span class="strong">School 21(Ecole 42)</span>
+                    </div>
+                </div>
+                <div class="description__item2">
+                    <span class="strong">Direction:</span>:
+                    Programing school
+                </div>
+            </div>
+        </article>
+
+        <footer class="footer">
+            <nav class="footer__nav">
+                <ul class="footer__nav__list">
+                    <li class="git-link">
+                        <a href="https://github.com/milmenderov"> <i class="fab fa-github"></i></a>
+                    </li>
+                    <li class="year">
+                        <span class="year-font">2023</span>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </section>
+</main>
+</body>
+
+</html>
