@@ -51,12 +51,14 @@ body {
 }
 ul.phone,
 ul.skype,
-ul.linkedin li {
+ul.linkedin,
+ul.email li {
     list-style-type: none;
 }
 ul.phone,
 ul.skype,
-ul.linkedin {
+ul.linkedin,
+ul.email{
     padding: 0;
 }
 .skills_list {
@@ -85,14 +87,14 @@ ul.linkedin {
     color: #4d4d4d;
     background-color: white;
 }
-.phone, .skype, .linkedin {
+.phone, .skype, .linkedin, .email {
     display: flex;
     margin-bottom: 1rem;
 }
 .phone__icon {
     margin-right: 1rem;
 }
-.phone__number, .skype__nik, .linkedIn__link {
+.phone__number, .skype__nik, .email__link, .linkedIn__link  {
     margin-left: 1rem;
 }
 .education {
